@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background: white;
+}
+
+header h1 {
+  letter-spacing: 8px;
+  font-size: 42px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #e8e5e1;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+button {
+  padding: 12px 25px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.products {
+  text-align: center;
+  padding: 50px;
+}
+
+.product {
+  background: white;
+  width: 280px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.product img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: white;
+}
