@@ -157,3 +157,39 @@ font-size:40px;
 letter-spacing:10px;
 margin-bottom:15px;
 }
+
+/* Mobile Fix */
+@media (max-width: 768px) {
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  nav {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .logo {
+    font-size: 40px;
+    letter-spacing: 8px;
+  }
+
+  .menu {
+    gap: 15px;
+    font-size: 15px;
+  }
+
+  .hero {
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
