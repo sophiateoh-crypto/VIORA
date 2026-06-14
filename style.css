@@ -164,3 +164,29 @@ margin-bottom:15px;
 .contact-buttons button{
     width:160px;
 }
+
+.contact{
+    padding:100px 20px !important;
+    background:#f7f4ef;
+    text-align:center !important;
+}
+
+.contact h2{
+    text-align:center !important;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.contact p{
+    text-align:center !important;
+    max-width:800px;
+    margin:0 auto 30px auto;
+}
+
+.contact-buttons{
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center;
+    gap:20px;
+    width:100%;
+}
