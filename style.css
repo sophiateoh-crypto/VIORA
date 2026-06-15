@@ -178,8 +178,18 @@ margin-bottom:15px;
   }
 
   .menu {
-    gap: 15px;
-    font-size: 15px;
+  gap: 15px;
+  font-size: 15px;
+  }
+
+  nav ul {
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+  }
+
+  nav a {
+  font-size: 13px;
   }
 
   .hero {
